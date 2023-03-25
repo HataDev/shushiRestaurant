@@ -1,0 +1,66 @@
+
+.cardMenu {
+    height: 100px;
+    width: 45%;
+    margin: 0;
+    padding: 0;
+}
+
+.ourMenu__content {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+.ourMenu__food {
+    width: 92%;
+    margin: 0 10px 0 0;
+    font-family: 'Bellefair', Times, 'Century Schoolbook L', serif;
+    font-size: 26px;
+    left: 0;
+    overflow: hidden;
+}
+
+.ourMenu__food::after {
+    content:'';
+    height: 26px;
+    width: 90%;
+    border-bottom: 1px dotted black;
+    position: absolute;
+    margin-left: 2%;
+}
+
+.ourMenu__price {
+    right: 0px;
+    font-family: "Montserrat", Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+    font-weight: 600;
+    padding-left: 50px;
+    margin: 0;
+}
+
+.ourMenu__explain {
+    position: absolute;
+    top: 20px;
+    width: 70%;
+    font-family: 'Source Sans Pro', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+    color: #707070;;
+    line-height: 25px;
+}
+
+.ourMenu__note {
+    position: absolute;
+    top: 18px;
+    right: 0;
+    padding: 2px 5px;
+    color: white;
+    background-color: red;
+    font-size: 10px;
+    font-weight: 700;
+    font-size: 'Montserrat', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+}
+
+

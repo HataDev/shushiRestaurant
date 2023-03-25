@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cardBlog {
+    height: 550px;
+    width: 80%;
+    position: relative;
+
+}
+
+.cardBlog img {
+    width: 100%;
+}
+
+.cardBlog h3{
+    margin-top: 50px;
+}
+
+.cardBlog h6{
+    margin-top: 18px;
+}
+
+.cardBlog p{
+    margin-top: 6%;
+}
+
+.cardBlog__date {
+    font-size: 98%;
+    font-weight: 400;
+    color: #707070;
+    opacity: 0.9;
+    font-family: 'Source Sans Pro', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+}
+
+.cardBlog__title {
+    font-size: 200%;
+    font-weight: 400;
+    font-family: 'Bellefair', Times, 'Century Schoolbook L', serif;  
+}
+
+.cardBlog__title:hover {
+    text-underline-position: under;
+    text-decoration: 2px underline red solid;
+    color: red;
+}
+
+.cardBlog__content {
+    font-size: 98%;
+    font-weight: 400;
+    color: #707070;
+    opacity: 0.9;
+    font-family: 'Source Sans Pro', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+}
+
+
+
+
